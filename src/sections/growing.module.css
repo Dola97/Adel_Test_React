@@ -1,0 +1,43 @@
+.GrowingSection {
+  background-color: #f6f6f6;
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding-right: 126px;
+  padding-left: 126px;
+  min-height: 100vh;
+}
+.ImageStyle {
+  width: 463px;
+  height: 496px;
+}
+.NetWorkText {
+  font-size: 32px;
+  color: #141e2c;
+  font-family: "Med";
+  text-align: center;
+  padding-top: 28px;
+}
+.NetWorkContent {
+  font-size: 16px;
+  color: #141e2c;
+  font-family: "Reg";
+  text-align: center;
+  padding-top: 12px;
+}
+@media screen and (max-width: 1046px) {
+  .ImageStyle {
+    width: 263px;
+    height: 296px;
+  }
+  .GrowingSection {
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .NetWorkText {
+    font-size: 24px;
+  }
+}

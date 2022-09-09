@@ -1,0 +1,50 @@
+.lableForm {
+  font-size: 18px;
+  color: black;
+  font-family: "Med";
+}
+.FormConatiner {
+  margin-bottom: 40px;
+}
+.forgetText {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #cf0303;
+  cursor: pointer;
+  align-self: flex-end;
+  display: flex;
+  padding-bottom: 48px;
+}
+
+.LoginText {
+  font-size: 16px;
+  color: white;
+  font-family: "Bold";
+}
+
+.DoneHaveTxt {
+  font-size: 14px;
+  color: "#060C3C";
+  font-family: "Med";
+}
+
+.DoneHaveTxt span {
+  color: #cf0303;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Line {
+  background: #e6e7eb;
+  color: #e6e7eb;
+  border-color: #e6e7eb;
+  height: 2px;
+}
+
+.footerFormTxt {
+  color: #b4b6c4;
+  font-size: 16px;
+  font-family: "Med";
+  text-decoration: underline;
+  cursor: pointer;
+}

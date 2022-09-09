@@ -1,0 +1,10 @@
+.TextForm {
+  font-family: "Bold";
+  color: black;
+  font-size: 26px;
+  padding-top: 49px;
+  padding-bottom: 60px;
+}
+.TextForm span {
+  color: #cf0303;
+}

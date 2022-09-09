@@ -8,12 +8,14 @@ interface Props {
   onClick: () => void;
   radius: string;
   width: string;
+  type: "button" | "submit" | "reset" | undefined;
 }
 
 export const Button: React.FC<Props> = ({
   border,
   color,
   children,
+  type = "button",
   height,
   onClick,
   radius,
@@ -22,6 +24,7 @@ export const Button: React.FC<Props> = ({
   return (
     <button
       onClick={onClick}
+      type={type}
       style={{
         backgroundColor: color,
         border,
