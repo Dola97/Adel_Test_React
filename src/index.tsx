@@ -5,6 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { AuthProvider } from "./hooks/useAuth";
 import { BrowserRouter } from "react-router-dom";
+import "./fonts/Montserrat-Bold.ttf";
+import "./fonts/Montserrat-Light.ttf";
+import "./fonts/Montserrat-Medium.ttf";
+import "./fonts/Montserrat-Regular.ttf";
+import "./fonts/Montserrat-SemiBold.ttf";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
