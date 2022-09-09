@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "rootDir": ".",
+    "baseUrl": ".",
+        "paths": {
+        "components/*": ["src/components/*"],
+        "components": ["src/components/index"],
+        "layouts/*": ["src/layouts/*"],
+        "layouts": ["src/layouts/index"],
+        "sections/*": ["src/sections/*"],
+        "sections": ["src/sections/index.ts"],
+        "context/*": ["src/context/*"],
+        "context": ["src/context/index.ts"],
+        "pages/*": ["src/pages/*"],
+        "pages": ["src/pages/index.ts"],
+        "constants/*": ["src/constants/*"],
+        "constants": ["src/constants/index.ts"],
+        "hooks/*": ["src/hooks/*"],
+      "hooks": ["src/hooks/index.ts"],
+     "util/*": ["src/util/*"],
+     "util": ["src/util/index.ts"],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

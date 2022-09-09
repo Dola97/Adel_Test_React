@@ -1,0 +1,17 @@
+import { Navigate, useOutlet } from "react-router-dom";
+import { useAuth } from "../hooks";
+
+export const AuthLayout = () => {
+  const { user } = useAuth();
+  const outlet = useOutlet();
+
+  if (user) {
+    return <Navigate to="/" />;
+  }
+
+  return (
+    <div style={{ height: "100vh", overflowY: "scroll" }}>
+      <main>{outlet}</main>
+    </div>
+  );
+};
