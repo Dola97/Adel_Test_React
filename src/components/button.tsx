@@ -5,7 +5,7 @@ interface Props {
   color: string;
   children?: React.ReactNode;
   height: string;
-  onClick: () => void;
+  onClick?: any;
   radius: string;
   width: string;
   type: "button" | "submit" | "reset" | undefined;

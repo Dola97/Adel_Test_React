@@ -4,3 +4,5 @@ export const NETWORKCONTENT =
 
 export const LOGINTEXT =
   "  now and start customizing your activities on our platform.";
+
+export const API_BASE_URL = "https://challenge.testing-room.com/api/v1/";
