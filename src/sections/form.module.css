@@ -8,3 +8,14 @@
 .TextForm span {
   color: #cf0303;
 }
+.Container {
+  padding: 65px;
+  flex-direction: column;
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .Container {
+    padding: 35px;
+  }
+}
