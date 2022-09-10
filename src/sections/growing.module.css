@@ -3,7 +3,7 @@
   padding-top: 140px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+
   flex-direction: column;
   padding-right: 126px;
   padding-left: 126px;
@@ -34,9 +34,9 @@
     height: 396px;
   }
   .GrowingSection {
-    padding-top: 60px;
     padding-right: 50px;
     padding-left: 50px;
+    justify-content: center;
   }
   .NetWorkText {
     font-size: 24px;
