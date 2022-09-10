@@ -1,0 +1,55 @@
+.ImageStyle {
+  width: 290px;
+  height: 375px;
+  position: relative;
+}
+.ImageStyleTwo {
+  width: 290px;
+  height: 375px;
+  position: relative;
+  top: 5rem;
+}
+.BackGround {
+  background-color: #f7f7f7;
+  position: absolute;
+  height: 822px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 1110px;
+}
+
+.ColOne {
+  /* position: relative;
+  z-index: 1; */
+  margin-top: 136px;
+}
+
+@media screen and (max-width: 1400px) {
+  .BackGround {
+    display: none;
+  }
+  .ImageStyle {
+    width: 250px;
+    height: 300px;
+    position: relative;
+  }
+  .ImageStyleTwo {
+    width: 250px;
+    height: 300px;
+  }
+  .ColOne {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ImageStyle {
+    width: 150px;
+    height: 200px;
+    position: relative;
+  }
+  .ImageStyleTwo {
+    width: 150px;
+    height: 200px;
+  }
+}

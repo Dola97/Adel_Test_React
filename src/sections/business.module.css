@@ -1,0 +1,53 @@
+.Container {
+  padding-top: 320px;
+}
+.myBusinessTxt {
+  color: #151e2c;
+  font-family: "Bold";
+  font-size: 36px;
+}
+.Card {
+  width: 358px;
+  height: 144px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  padding-right: 37px;
+  padding-left: 37px;
+  margin-bottom: 30px;
+}
+.ConatainerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 76px;
+  margin-right: 31px;
+  background-color: #fff;
+  color: #151e2c;
+  border-radius: 10px;
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.06);
+}
+.NumberCard {
+  font-family: "Bold";
+  font-size: 32px;
+  /* color: #151e2c; */
+}
+.TextCard {
+  font-family: "Med";
+  font-size: 16px;
+  color: #9d9d9d;
+}
+
+.Card:hover {
+  background-color: #cf0303;
+  color: #fff;
+}
+.Line {
+  background: red;
+  color: red;
+  border-color: red;
+  height: 2px;
+}
