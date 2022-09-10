@@ -1,6 +1,7 @@
+import { Header } from "../components/header";
 import { Navigate, useOutlet } from "react-router-dom";
 import { useAuth } from "../hooks";
-
+import styles from "src/sections/hero.module.css";
 export const HomeLayout = () => {
   const { user } = useAuth();
   const outlet = useOutlet();
@@ -10,7 +11,16 @@ export const HomeLayout = () => {
   }
 
   return (
-    <div style={{ height: "100vh", overflowY: "scroll" }}>
+    <div
+      style={{
+        height: "100vh",
+        overflowY: "scroll",
+        backgroundColor: "#fff",
+        position: "relative",
+      }}
+    >
+      <Header />
+      <div className={styles.BackGround} />
       <main>{outlet}</main>
     </div>
   );
