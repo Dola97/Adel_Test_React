@@ -15,7 +15,7 @@ export const TextHero = () => {
         color={"#CF0303"}
         type="button"
         height={"66px"}
-        children={<p className="buttontxt">Find out who they are</p>}
+        children={<text className="buttontxt">Find out who they are</text>}
         radius={"50px"}
         width={"226px"}
         className={"button"}

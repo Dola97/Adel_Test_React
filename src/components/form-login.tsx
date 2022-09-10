@@ -63,7 +63,7 @@ export const FormLogin = () => {
         color={"#CF0303"}
         type="button"
         height={"50px"}
-        children={<p className={Styles.LoginText}>Login</p>}
+        children={<text className={Styles.LoginText}>Login</text>}
         onClick={handleSubmit}
         radius={"10px"}
         width={"100%"}
