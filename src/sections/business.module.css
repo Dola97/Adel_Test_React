@@ -51,3 +51,9 @@
   border-color: red;
   height: 2px;
 }
+
+@media screen and (max-width: 576px) {
+  .Card {
+    width: fit-content;
+  }
+}
