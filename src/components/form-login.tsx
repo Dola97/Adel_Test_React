@@ -56,14 +56,14 @@ export const FormLogin = () => {
         </Form.Control.Feedback>
       </Form.Group>
       <div style={{ display: "flex", justifyContent: "flex-end" }}>
-        <text className={Styles.forgetText}>Forgot Password?</text>
+        <p className={Styles.forgetText}>Forgot Password?</p>
       </div>
       <Button
         border={"none"}
         color={"#CF0303"}
         type="button"
         height={"50px"}
-        children={<text className={Styles.LoginText}>Login</text>}
+        children={<p className={Styles.LoginText}>Login</p>}
         onClick={handleSubmit}
         radius={"10px"}
         width={"100%"}
@@ -71,9 +71,9 @@ export const FormLogin = () => {
       <div
         style={{ display: "flex", justifyContent: "center", paddingTop: 31 }}
       >
-        <text className={Styles.DoneHaveTxt}>
+        <p className={Styles.DoneHaveTxt}>
           Don’t have an account? <span>Sign Up</span>
-        </text>
+        </p>
       </div>
       <FormFooter />
     </Form>

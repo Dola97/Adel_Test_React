@@ -10,8 +10,8 @@ export const GrowingSection = () => {
         src={growingImage}
         alt="Growing Image"
       />
-      <text className={styles.NetWorkText}>{NEWWORKTEXT}</text>
-      <text className={styles.NetWorkContent}>{NETWORKCONTENT}</text>
+      <p className={styles.NetWorkText}>{NEWWORKTEXT}</p>
+      <p className={styles.NetWorkContent}>{NETWORKCONTENT}</p>
     </section>
   );
 };

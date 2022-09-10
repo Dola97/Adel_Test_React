@@ -5,8 +5,8 @@ export const FormFooter = () => {
     <>
       <hr className={styles.Line} />
       <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <text className={styles.footerFormTxt}>Terms & Conditions</text>
-        <text className={styles.footerFormTxt}>Privacy Policy</text>
+        <p className={styles.footerFormTxt}>Terms & Conditions</p>
+        <p className={styles.footerFormTxt}>Privacy Policy</p>
       </div>
     </>
   );

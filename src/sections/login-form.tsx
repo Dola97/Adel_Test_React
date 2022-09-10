@@ -6,9 +6,9 @@ export const LoginFormSection = () => {
   return (
     <section className={styles.Container}>
       <Logo />
-      <text className={styles.TextForm}>
+      <p className={styles.TextForm}>
         <span>Log in</span> {LOGINTEXT}
-      </text>
+      </p>
       <FormLogin />
     </section>
   );
