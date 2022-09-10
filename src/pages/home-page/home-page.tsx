@@ -1,9 +1,11 @@
 import React from "react";
+import { HeroSection, BusinessSection } from "../../sections";
 
 export const HomePage = () => {
   return (
     <div>
-      <text style={{ color: "red" }}>hello</text>
+      <HeroSection />
+      <BusinessSection />
     </div>
   );
 };
