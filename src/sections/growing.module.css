@@ -8,6 +8,7 @@
   padding-right: 126px;
   padding-left: 126px;
   min-height: 100vh;
+  width: 100%;
 }
 .ImageStyle {
   width: 463px;
@@ -29,8 +30,8 @@
 }
 @media screen and (max-width: 1046px) {
   .ImageStyle {
-    width: 263px;
-    height: 296px;
+    width: 363px;
+    height: 396px;
   }
   .GrowingSection {
     padding-top: 60px;

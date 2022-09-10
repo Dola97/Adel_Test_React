@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import { Button } from "./button";
 import { FormFooter } from "./footer-form";
 import Styles from "./form-login.module.css";
+
 export const FormLogin = () => {
   const { login } = useAuth();
   const [validated, setValidated] = useState(false);
@@ -24,6 +25,7 @@ export const FormLogin = () => {
         <Form.Label className={Styles.lableForm}>Email Address</Form.Label>
         <Form.Control
           required
+          style={{ height: 50, border: "1px solid #B4B6C4", borderRadius: 6 }}
           value={data.email}
           onChange={(event) =>
             updateData({ ...data, email: event.target.value })
@@ -40,6 +42,7 @@ export const FormLogin = () => {
         <Form.Label className={Styles.lableForm}>Password</Form.Label>
         <Form.Control
           required
+          style={{ height: 50, border: "1px solid #B4B6C4", borderRadius: 6 }}
           value={data.password}
           onChange={(event) =>
             updateData({ ...data, password: event.target.value })
