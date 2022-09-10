@@ -1,0 +1,207 @@
+.menuToggle {
+  display: block;
+}
+/* .Icon {
+  position: relative;
+  z-index: 1;
+} */
+.SocialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60px;
+}
+.buttontxt {
+  font-family: "Bold";
+  font-size: 14px;
+  color: #fff;
+}
+.button {
+  margin-top: 41px;
+}
+.HorizontalLink {
+  display: none;
+}
+.brandContainer {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 66px rgba(47, 44, 44, 0.05);
+  border-radius: 5px;
+  width: 1101px;
+  height: 145px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 66px;
+  padding-left: 66px;
+  top: 122px;
+  overflow-x: scroll;
+}
+.fText {
+  font-size: 15px;
+  color: #cf0303;
+  font-family: "Bold";
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.51rem;
+}
+.sText {
+  font-size: 45px;
+  color: #151e2c;
+  font-family: "Bold";
+  position: relative;
+  z-index: 1;
+  white-space: pre;
+}
+.tText {
+  color: #9d9d9d;
+  font-size: 16px;
+  font-family: "Reg";
+  position: relative;
+  z-index: 1;
+}
+.sText span {
+  color: #cf0303;
+}
+.activeClassName {
+  cursor: pointer;
+  color: #cf0303;
+  font-size: 16px;
+  font-family: "Bold";
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.nonactiveClassName {
+  cursor: pointer;
+  color: #9d9d9d;
+  font-size: 16px;
+  font-family: "Bold";
+  text-decoration: none;
+}
+.vl {
+  border-left: 1px solid #cf0303;
+  height: 160px;
+  position: relative;
+}
+.navigation {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: transparent;
+  padding: 2rem 0rem;
+  z-index: 1;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.searchButton {
+  box-sizing: border-box;
+  border: 1px solid #cf0303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 90px;
+  background-color: transparent;
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .button {
+    margin-bottom: 20px;
+  }
+  .activeClassName {
+    display: block;
+    width: 100%;
+  }
+  .nonactiveClassName {
+    display: block;
+    width: 100%;
+  }
+  .SocialContainer {
+    display: none;
+  }
+  .HorizontalLink {
+    display: flex;
+    padding-top: 20px;
+  }
+  .sText {
+    font-size: 28px;
+    position: static;
+  }
+  .tText {
+    position: static;
+  }
+  .fText {
+    position: static;
+  }
+  .brandContainer {
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .navigation-menu ul {
+    position: absolute;
+
+    left: 0;
+    display: none;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .Icon {
+    padding-right: 20px;
+  }
+  .navigation-menu li a {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .searchButton {
+    display: none;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+}
